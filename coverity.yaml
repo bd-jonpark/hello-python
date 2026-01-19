@@ -1,8 +1,6 @@
-connect:
-  url: http://aws-sig-ts-jonpark.aws.internal:18080
-  stream: hello-python
-  project: hello-python
+version: "1.0"
 
 capture:
-  source:
-    - main.py
+  build:
+    # No build command for Python
+    clean-command: []
